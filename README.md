@@ -1,2 +1,2 @@
 # moodle-kezikonyv
-Moodle kézikönyv tartalom adminisztrátoroknak
+Moodle kézikönyv tartalom-adminisztrátoroknak

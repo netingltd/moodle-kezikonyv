@@ -20,6 +20,8 @@ A dokumentum a következő fő részeken keresztül mutatja be a Moodle funkció
 
 NOTE: A dokumentum Moodle 3.0-ás verzió alapján készült, de a leírtak alkalmazhatóak magasabb számú verziókra is.
 
+<<<
+
 == Mi a Moodle?
 
 A Moodle (Modular Object-Oriented Dynamic Learning Environment) egy nyílt forráskódú, *online tanulásirányítási környezet* (LMS - Learning Management System), mely segítséget ad az oktatóknak az oktatás szervezésében, tananyagok egyszerű hozzáférhetővé tételében, illetve szabadságot ad a résztvevőknek, melynek segítségével térben és időben el tudnak szakadni a hagyományos frontális (osztálytermi) tanulástól.
@@ -40,9 +42,7 @@ A fontosabb feladatok összefoglalva:
 * Önértékelő és számon kérő elemeket tartalmaz.
 * Támogatja a virtuális csoportmunkát, kollaboratív felületet biztosít.
 
-
 <<<
-
 
 == Szerepek a Moodle-ban
 

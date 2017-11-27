@@ -14,7 +14,7 @@ A dokumentum a következő fő részeken keresztül mutatja be a Moodle funkció
 * megismerkedünk a kurzusok és tevékenységek általános létrehozásával és beállításaival,
 * ismertetjük a főbb tevékenységtípusokat,
 * ismertetjük a kurzuson belüli pontozás és lekérdezés lehetőségeit,
-* megnézzük, hogyan tudjuk a rendszer felhasználói kezelni,
+* megnézzük, hogyan tudjuk a rendszer felhasználóit kezelni,
 * megnézzük, hogy tudjuk őket beiratkoztatni kurzusra,
 * végül megismerkedünk a kitűzőkkel.
 

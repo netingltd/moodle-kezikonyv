@@ -1,0 +1,84 @@
+:icons: font
+:experimental: enable
+:toc: right
+:doctype: book
+
+[[tananyag-tananyag]]
+= Tananyag
+
+Tananyag hozzáadásával letölthető fájlokat vagy több fájlból álló állományokat, például e-learning tananyagokat - nem SCORM-os - tehetünk a tanulóknak elérhetővé.
+
+[NOTE]
+Több fájl feltöltése esetén mindig meg kell adnunk egy indító állományt (amiből csak egy darab lehet), például egy HTML oldal és a hozzá tartozó képek esetén indító állományként magát a HTML fájlt kell megadnunk.
+
+== Tananyag létrehozása és beállításai
+
+Miután a kurzusunk oldalán bekapcsoltuk a szerkesztési módot, a *Tevékenység vagy tananyag beszúrása* segítségével hozhatjuk létre a Tananyagot.
+
+.Tananyag létrehozása
+image::./pics/tananyag/tananyag_letrehozasa.png[Tananyag létrehozása, align="center"]
+
+
+<<<
+
+
+A btn:[Hozzáadás] gombra kattintva megadhatjuk a Tananyag paramétereit.
+
+Általános::
+
+image:./pics/tananyag/altalanos.png[Tananyag - Általános, align="center"]
++
+Itt adhatjuk meg a tananyag nevét és leírását. Amennyiben kijelöljük a *Leírás megjelenítése a kurzusoldalon* opciót, akkor a kurzusoldalon a tananyag címe alatt megjelenik a leírás is.
+
+Tartalom::
+
+Itt tölthetjük fel a kívánt fájlokat.
+
+Mappa létrehozása::
+
+Átláthatóbbá tehetjük a fájlokat, ha azokat mappákba szervezzük. Mappát létrehozni a *Mappa létrehozása* ikonnal tudunk.
++
+image:./pics/tananyag/mappa_letrehozas.png[Tananyag - Mappa létrehozása, align="center"]
++
+Miután létrehoztuk, egyszerűen kattintással belelépünk, majd elvégezzük a fájl feltöltést a megszokott módon. A mappákba további almappákat is létrehozhatunk.
+
+
+<<<
+
+::
+A feltöltő felület morzsa (breadcumb) menüje segít eligazodni, hogy éppen melyik mappában vagyunk.
++
+image:./pics/tananyag/mappa_morzsa.png[Tananyag - Mappa morzsa (breadcumb), align="center"]
+
+Több fájlból álló állomány - például tananyag - feltöltése:::
+
+Töltsük fel a kívánt anyag zip fájlját.
++
+image:./pics/tananyag/tananyag_zip.png[Tananyag - zip állomány feltöltése, align="center"]
+
+
+<<<
+
+::
+Ezután kattintsuk rá és válasszuk a btn:[Kicsomagolás] opciót.
++
+image:./pics/tananyag/zip_kicsomagolas.png[Tananyag - zip állomány kicsomagolása, align="center"]
+
+
+<<<
+
+::
+:::
+Ezután már csak az indító fájlt kell megadnunk. Kattintsunk a kiválasztott fájlra, majd a btn:[Fő állomány beállítása] gombra.
++
+image:./pics/tananyag/indito_file.png[Tananyag - Indító fájl, align="center"]
+
+
+<<<
+
+
+Megjelenítés::
+
+Itt állíthatjuk be, hogy hogyan viselkedjenek a fájlok, ha a tanuló rájuk kattint. Például, hogy megnyíljanak vagy letöltse őket a saját gépre.
++
+image:./pics/tananyag/megjelenes.png[Tananyag - Megjelenés, align="center"]

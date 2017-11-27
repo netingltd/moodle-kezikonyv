@@ -1,0 +1,82 @@
+:icons: font
+:experimental: enable
+:toc: right
+
+== Felhasználók importálása
+
+Felhasználókat szövegfájlból adminisztrátori szerepkörrel tudunk feltölteni. Számos lehetőséget kínál ez a módszer:
+
+* felhasználókat beiratkoztathatunk több kurzusra, kurzus-specifikus szerepkörökkel,
+* a Felhasználói adatok frissítéséhez a Felhasználói profilban,
+* felhasználók törlése a rendszerből.
+
+=== Fájlformátum
+
+A szövegfájlnak CSAK vesszővel (vagy más határolójával) elválasztott mezői lehetnek, a szóköz nem megengedett. Az első sor tartalmazza az érvényes mezőneveket. A többi sor (rekord) tartalmaz információkat a felhasználóról.
+
+TIP: Kerüld a speciális karaktereket a mezőinformációkban. Tesztelj egy fájlt csak egy rekorddal egy nagyobb feltöltés előtt.
+
+TIP: Az importálandó felhasználókat létrehozhatod a szükséges oszlopokkal és mezőkkel Excel (vagy egyéb, csv fájlt generáló) alkalmazásból is. Ezt követően mentsd a fájlt "CSV (vesszővel elválasztva)" típusú állományba. Figyelj az UTF-8 kódolásra!
+
+=== Mezők
+
+
+Szükséges mezők::
+
+```
+username,firstname,lastname,email
+```
+
+1. A ```username``` mező megengedett karakterei csak kisbetűk, számjegyek, gondolatjel '-', aláhúzás '_', pont '.', vagy at-jel '@' lehet.
+2. Az ```email``` mező formátuma a szokásos email formátum legyen: name@example.com
+
+Jelszó mező::
+A ```password``` mező opcionális, ha a *Beállítások* blokkon belül az *Új felhasználói jelszó tulajdonság* a "*Szükség esetén hozzon létre egy jelszót*"-ra van állítva (alapértelmezés).
++
+** Ha a jelszó meg van adva a csv fájlban, akkor meg kell felelnie a webhely Jelszószabályzatának.
+** Ha nem adjuk meg a jelszót, a felhasználónak a következő Cron munkában generálódik egy jelszó, amit egy üdvözlő emailben kiküld a rendszer a felhasználónak.
+
+NOTE: Az üdvözlő email tartalma a nyelvi beállításokban található.
+
+Speciális mezők::
+* ```oldusername```: a felhasználó nevét tudjuk általa megváltoztatni.
+* ```deleted```: törli a felhasználót.
+* ```suspended```: felfüggeszti a felhasználót.
+
+Beiratkozást lehetővé tevő opcionális mezők::
+```
+course1,type1,role1,group1,enrolperiod1,enrolstatus1,course2,type2,role2,group2,enrolperiod2,enrolstatus2
+```
+Cohort mező (opcionális)::
+* ```cohort1```: a meglévő globális csoportok belső azonosító számát vagy nem numerikus azonosítóját kell megadni; globális csoportnevekre hivatkozni nem lehet.
+
+Rendszerszerep (opcionális)::
+* ```sysrole1,sysrole2,sysrole3``` stb.
+
+
+Az összes mező::
+```
+firstname, lastname, username, email, city, country, lang, timezone, mailformat, maildisplay, maildigest, htmleditor, ajax, autosubscribe ,institution, department, idnumber, skype, msn, aim, yahoo, icq, phone1, phone2, address, url, description, descriptionformat, password, auth, oldusername , deleted, suspended, course1, course2, course3, course4
+```
+
+== Felhasználók feltöltése
+
+1. Hozz létre egy csv fájlt.
+2. Válaszd ki a menu:Portáladminisztráció[Felhasználó > Fiókok > Felhasználók feltöltése] menüpontot.
+3. Válaszd ki a fájlt feltöltésre.
+4. Kattints az btn:[Állomány feltöltése] gombra.
+5. Kattints a btn:[Felhasználók feltöltése] gombra.
+6. Ellenőrizd az előzetes megtenintési listában a felhasználókhoz tartozó információk helyességét.
+7. Kattints a btn:[Felhasználók feltöltése] gombra.
+8. A Felhasználók feltöltésének eredménye oldalon láthatod, hány létrehozott felhasználó került újonnan a felhasználók listájába.
+9. Kattints a btn:[Folytatás] gombra.
+10. Visszakerülünk a "Felhasználók feltöltése" oldalra.
+
+
+== Felhasználók feltöltése Globális csoportokba
+
+Többféle lehetőségünk van arra, hogy Globális csoportokba importáljunk felhasználókat.
+
+Az eljárás ugyanaz, mint a Felhasználók feltöltése folyamatban, a mezőnevek között megjelenik a ```cohort1``` mezőnév, mely a Globális csoport azonosítóját jelöli. Ha nem létezik globális csoport a ```cohort1``` mezőben megadott néven, létrejön a globális csoport a rendszerben ugyanolyan névvel és azonosítóval, mint amit a ```cohort1``` mezőben megadtunk.
+
+Létező felhasználók esetén a *Típus feltöltése* tulajdonságnak a "*Csak meglévő felhasználók frissítése*" értéket beállítva elegendő a csv fájlban a ```username``` és a ```cohort1``` mezőket megadnunk.

@@ -1,0 +1,26 @@
+:icons: font
+:experimental: enable
+:toc: right
+:toclevels: 3
+:doctype: book
+
+= Moodle kézikönyv
+Tóth Mariann;Pataki Gábor;Szarvas Zoltán
+
+include::bevezeto.adoc[leveloffset=+1]
+
+include::kurzus.adoc[leveloffset=+1]
+
+include::felhasznalok.adoc[leveloffset=+1]
+
+include::beiratkoztatas.adoc[leveloffset=+1]
+
+include::kituzok.adoc[leveloffset=+1]
+
+== Licensz
+
+image:./pics/licensz/neting_logo.png[neting,120,50,link=https://www.neting.hu] [.small]#Copyright (C) 2017 Neting Informatika Kft. https://www.neting.hu[www.neting.hu]#
+
+image:./pics/licensz/cc-by-sa.png[cc-by-sa,link=https://creativecommons.org/licenses/by-sa/4.0/deed.hu] [.small]#A dokumentum https://creativecommons.org/licenses/by-sa/4.0/deed.hu[Creative Commons Attribution-ShareAlike 4.0 International License (cc-by-sa-4.0)] licenc alapján használható.#
+
+Forrás: https://github.com/netingltd/moodle-kezikonyv

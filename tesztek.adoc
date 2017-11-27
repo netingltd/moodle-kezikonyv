@@ -303,6 +303,8 @@ A kérdések Moodle felületén történő felvételén kívül van lehetőség�
 
 Segítségül fogjuk hívni az link:files/excel_kerdesek_sablon.xlsm[Excel sablont], mely makrók segítségével készít Moodle *GIFT* formátumú tesztet, amit ezután importálhatunk a Moodle-ba.
 
+NOTE: Forrás: https://moodle.org/mod/forum/discuss.php?d=66660
+
 A munkafolyamat a következő:
 
 1. Excel sablon feltöltése kérdésekkel

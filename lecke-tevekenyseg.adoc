@@ -181,7 +181,7 @@ image:./pics/lecke/kerdesek.png[align="center"]
 Kérdések importálása:::
 
 Meglévő fájlból importálhatunk kérdéseket, megegyező módon a Kérdésbank kérdéseinek importálásával.
--
+
 Tömb:::
 
 A Tömb akkor hasznos, ha egy kérdéscsoportot akarunk létrehozni, például egy több kérdésből álló tesztet, ahol a kérdések sorrendje véletlenszerű. A Tömb elejét a *Tömb beszúrása* a végét a *Tömb végének hozzáadásával* tudjuk jelölni.

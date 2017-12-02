@@ -375,7 +375,7 @@ NOTE: Ilyenkor a bal oldali menüben átkerülünk egy *Osztályozás kezelése*
 .Osztályozónapló beállítása
 image::./pics/kurzus/osztalyozonaplo_beallitas.png[Osztályozónapló beállítása, align="center"]
 
-Az egyes elemek mellett található btn:[Szerkesztés] gombra kattintva tudjuk módosítani a súlyozást, szorzót adhatunk meg stb...
+Az egyes elemek mellett található btn:[Szerkesztés] gombra kattintva tudjuk módosítani a súlyozást, szorzót adhatunk meg stb.
 
 A *Kurzus összegezve* melletti btn:[Szerkesztés] gombra kattintva egyedi kalkulációt adhatunk meg, ami alapján a kurzus összpontszáma számítódni fog.
 
@@ -555,7 +555,7 @@ A legfontosabb kurzushoz kapcsolódó jelentéstípusokat az <<osztalyozonaplo-l
 
 === Naplók
 
-Részletes, rendszerszintű műveletlistát kérhetünk le, illetve szűrhetünk. Itt látunk minden olyan műveletet, amit a tanulók a portálon végeztek, külön eseményként láthatjuk például a kurzuslieratkozást, vizsgapróbálkozásokat, stb...
+Részletes, rendszerszintű műveletlistát kérhetünk le, illetve szűrhetünk. Itt látunk minden olyan műveletet, amit a tanulók a portálon végeztek, külön eseményként láthatjuk például a kurzuslieratkozást, vizsgapróbálkozásokat stb.
 
 .Jelentések - Naplók
 image::./pics/kurzus/kurzus_jelentesek_naplok.png[Jelentések - Naplók, align="center"]

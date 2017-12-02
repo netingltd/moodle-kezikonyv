@@ -62,7 +62,7 @@ NOTE: Érdemes a kérdéseket legalább a kurzushoz tartozó kérdésbankba felv
 
 WARNING: Amikor módosítunk egy kérdést a kérdésbankban, a kérdést felhasználó tesztekben is azonnal látszik a módusulás, viszont ha az eredményt befolyásoló módosulás történik, akkor a vizsgát újra kell pontozni. Erről később lesz szó a riport-oknál.
 
-NOTE: Amennyiben törlünk egy kérdést a kérdésbankból és azt felhasználtuk már tesztben, akkor a teszből nem fog törlődni a kérdés.
+NOTE: Amennyiben törlünk egy kérdést a kérdésbankból és azt felhasználtuk már tesztben, akkor a tesztből nem fog törlődni a kérdés.
 
 === Kérdésbank kategóriák
 
@@ -113,7 +113,7 @@ Kérdés szövege::::
 Képpel, médiával fűszerezhető formázott szöveg.
 
 Alapjegy::::
-Alapértelmezésben minden kérdésnél *1*, ennek segítségével adhatunk súlyt egy-egy fontosabb kérdéseknek a vizsgán belül.
+Alapértelmezésben minden kérdésnél *1*, ennek segítségével adhatunk súlyt egy-egy fontosabb kérdésnek a vizsgán belül.
 
 Általános visszajelzés::::
 A kérdés kitöltése után megjelenő visszajelző szöveg.

@@ -66,7 +66,7 @@ firstname, lastname, username, email, city, country, lang, timezone, mailformat,
 3. Válaszd ki a fájlt feltöltésre.
 4. Kattints az btn:[Állomány feltöltése] gombra.
 5. Kattints a btn:[Felhasználók feltöltése] gombra.
-6. Ellenőrizd az előzetes megtenintési listában a felhasználókhoz tartozó információk helyességét.
+6. Ellenőrizd az előzetes megtekintési listában a felhasználókhoz tartozó információk helyességét.
 7. Kattints a btn:[Felhasználók feltöltése] gombra.
 8. A Felhasználók feltöltésének eredménye oldalon láthatod, hány létrehozott felhasználó került újonnan a felhasználók listájába.
 9. Kattints a btn:[Folytatás] gombra.

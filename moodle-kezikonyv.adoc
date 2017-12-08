@@ -11,6 +11,10 @@ include::bevezeto.adoc[leveloffset=+1]
 
 include::kurzus.adoc[leveloffset=+1]
 
+include::kurzus-mentes.adoc[leveloffset=+1]
+
+include::kurzus-helyreallitas.adoc[leveloffset=+1]
+
 include::felhasznalok.adoc[leveloffset=+1]
 
 include::beiratkoztatas.adoc[leveloffset=+1]

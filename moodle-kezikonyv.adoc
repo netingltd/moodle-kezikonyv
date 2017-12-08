@@ -6,6 +6,7 @@
 
 = Moodle kézikönyv
 Tóth Mariann;Pataki Gábor;Szarvas Zoltán
+Módosítva - 2017. december 8.
 
 include::bevezeto.adoc[leveloffset=+1]
 
